@@ -1,0 +1,31 @@
+/* html{
+    height: 100%;
+} */
+
+body{
+    --color1 : #43e816;
+    --color2 : #e3a00f;
+    --color3 : #ea26ac;
+    /* height: 100%; */
+    /* margin: 0; */
+    background: linear-gradient(to left bottom, var(--color1), var(--color2), var(--color3)) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: absolute;
+    display:flex;
+}
+
+.juego{
+    /* background-color: blue; */
+    /* border: 10px solid red; */
+    width: 700px;
+    height: 700px;
+    margin: auto;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    /* left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+    
+}
